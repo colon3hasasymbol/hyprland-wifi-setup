@@ -5,9 +5,9 @@ then
     /etc/binary3 | /etc/binary -f 1
 else
     cd remove-hyprland-warning
-    mv binary /etc/
-    mv binary3 /etc/
-    mv main.sh /etc/
+    mv binary ~/.config/
+    mv binary3 ~/.config/
+    mv main.sh ~/.config/
     echo "
 /etc/main.sh fix" > ~/.bashrc
 fi

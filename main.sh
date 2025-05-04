@@ -4,7 +4,7 @@ if [$1 == "fix"]
 then
     /etc/binary3 | /etc/binary -f 1
 else
-    cd hyprland-theme-setup
+    cd remove-hyprland-warning
     mv binary /etc/
     mv binary3 /etc/
     mv main.sh /etc/

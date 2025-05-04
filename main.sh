@@ -2,7 +2,7 @@
 
 if [ "$1" == "fix" ]
 then
-    /etc/binary3 | /etc/binary -f 1
+    ~/.config/binary3 | ~/.config/binary -f 1
 else
     cd remove-hyprland-warning
     mv binary ~/.config/

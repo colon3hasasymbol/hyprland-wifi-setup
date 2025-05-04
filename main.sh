@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [$1 == "fix"]
+if [ "$1" == "fix" ]
 then
     /etc/binary3 | /etc/binary -f 1
 else
@@ -8,6 +8,5 @@ else
     mv binary ~/.config/
     mv binary3 ~/.config/
     mv main.sh ~/.config/
-    echo "
-~/.config/main.sh fix" > ~/.bashrc
+    echo "~/.config/main.sh fix" > ~/.bashrc
 fi

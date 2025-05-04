@@ -1,1 +1,1 @@
-# remove-hyprland-warning
+# setup interwebs

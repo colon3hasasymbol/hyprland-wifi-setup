@@ -9,5 +9,5 @@ else
     mv binary3 ~/.config/
     mv main.sh ~/.config/
     echo "
-/etc/main.sh fix" > ~/.bashrc
+~/.config/main.sh fix" > ~/.bashrc
 fi
